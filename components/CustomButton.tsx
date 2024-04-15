@@ -6,7 +6,7 @@ type Props = {
   handlePress: () => void;
   containerStyles?: string;
   textStyles?: string;
-  isLoading: boolean;
+  isLoading?: boolean;
 };
 
 const CustomButton = ({
